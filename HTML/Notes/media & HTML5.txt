@@ -1,0 +1,47 @@
+media : HTML5 supports lot of media elements such as responsive images, videos, audio, iframes etc..,
+  i. picture tag : picture tag allows the browser to choose different images based on device
+     it contains 'source' tags to provides sources with 'srcset' and make it work with 'media' for different devices.
+     Always sources media should be in decreasing order and need to keep default img tag at last.
+    <picture>
+        <source media="(min-width:1080px)" srcset="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png">
+        <source media="(min-width:768px)" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Motu_Patlu.Jpg/250px-Motu_Patlu.Jpg">
+         <img src="https://i.pinimg.com/736x/59/a0/d7/59a0d73139b06bd5191bfd6e12758b42.jpg" alt="shinchan" height="200">
+     </picture>
+
+  ii. videos: we can include videos using 'video' tag whose source is provided by 'source' tag
+      <video height="400" controls autoplay muted>
+        <source src="./6.mp4">
+         <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="./Titanic.1997.720p.BluRay.x264-.YTS.AG.srt"
+    default />
+      </video>
+video tag uses attributes like 
+       controls -- to get all control like play,pause,download etc..,
+       muted -- to mute the audio by default
+       autoplay -- to play the video on page load
+       Google chrome will not support autoplay unless it is muted
+
+ 3. audio tag : This tag is used to display audios. it also uses source to display specific audio
+        <audio controls>
+            <source src="path">
+        </audio>
+4. track: track is used to assign captions or subtitles for videos, it uses 'label' attribute for name , 'src' attribute for source file, 'srclang' attribute to specify source language
+
+<track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="./Titanic.1997.720p.BluRay.x264-.YTS.AG.srt"
+    default />
+
+5. Iframe(inline Frame): it is an Internal Frame which is used to keep one html document inside another html document.
+it also allows different domains codes embed into another html document
+
+
+
+
+
+

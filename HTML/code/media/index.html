@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <!-- picture -->
+     <picture>
+        <source media="(min-width:1080px)" srcset="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png">
+        <source media="(min-width:768px)" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Motu_Patlu.Jpg/250px-Motu_Patlu.Jpg">
+         <img src="https://i.pinimg.com/736x/59/a0/d7/59a0d73139b06bd5191bfd6e12758b42.jpg" alt="shinchan" height="200">
+     </picture>
+     <!-- video -->
+      <video height="400" controls autoplay muted>
+        <source src="./6.mp4">
+         <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="./Titanic.1997.720p.BluRay.x264-.YTS.AG.srt"
+    default />
+      </video>
+      <audio controls >
+        <source src="./file_example_MP3_1MG (3).mp3">
+      </audio>
+
+      <!--Iframe-->
+      <iframe src="../formatting-tags/index.html" height="400" width="400"></iframe>
+      <iframe src="./Frontend development roadmap.pdf" height="400" width="400"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=IK2sJzShvkP563DC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60903.160631821884!2d78.3804734216797!3d17.43828090000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb912861d539e3%3A0x711d51b1810fe330!2sNaresh%20IT%20New%20Campus!5e0!3m2!1sen!2sin!4v1754654977827!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

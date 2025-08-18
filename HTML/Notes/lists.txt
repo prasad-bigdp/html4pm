@@ -1,0 +1,86 @@
+Lists: Lists are used to list out certain items in HTML. Instead of multiple paragraphs,content or single large text, user likes the data in Lists
+Eg: menu or sub menus, features list
+Lists are basically three types: 
+   i.Ordered Lists
+   ii. Unordered Lists
+   iii. Definition or Description Lists
+
+   i. Ordered Lists:  The lists which needs to be presented in order are called Ordered Lists. They use 'ol' tag.Each List Item in the list uses 'li' tag
+     eg:<ol>
+           <li>HTML</li>
+           <li>CSS</li>
+           <li>Bootstrap</li>
+           <li>Javascript</li>
+        </ol>
+
+        <ol type="A" start="27">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol>
+we can use type attribute . There are 5 types available(1/A/a/i/I),default is 1.we can start from any value using start attribute.
+
+  ii. Unordered Lists: These are used to represent items where ordered is not mandatory.
+      eg: <ul>
+              <li>Chocolate</li>
+              <li>Rice</li>
+              <li>Oil</li>
+              <li>Tomato</li>
+           </ul>
+
+   iii. Definition Lists: These Lists are used to define certain values , to specify events etc..,
+   it uses 'dl' tag where eacl lists item have two elements 'dt'(definition-term) and 'dd'(definition data)
+    <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JS</dt>
+            <dd>Javascript</dd>
+        </dl>
+
+Nested Lists: we can keep one lists inside another list called Nested Lists
+      <ol>
+          <li> HTML
+            <ul>
+               <li>Headings,p,img,a</li>
+               <li>Lists , Tables</li>
+               <li>Forms</li>
+            </ul>
+          </li>
+          <li> CSS
+            <ul>
+               <li>colors,bgcolor,box model</li>
+               <li>flex</li>
+               <li>Grid</li>
+            </ul>
+          </li>
+        </ol>
+          
+
+The two most used self closing tags are <br /> and <hr />
+br is used to break the line
+hr is used to create horizontal line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

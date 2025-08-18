@@ -1,0 +1,134 @@
+HTML Forms : Forms are used to collect the data from web pages.
+  Eg: login, signup, forgot password, survey , feedback, profile, email newsletter, contact, appointment, checkout, complaint
+  Every form is between 'form' element.form element contains inputs and buttons to submit or reset the forms.
+  forms collect the data and send to the server via javascript.
+
+  Inputs can be entered using 'input' tag. input tag is a self closing tag. Every input will have attributes like
+
+   type --- it defines the type of input it will hold
+   placeholder -- A dummy text to hold the place, to make users understand what to type
+   id -- A name to idetify only that element uniquely.
+
+ Instead of placeholders, we can also use 'labels' using 'label' tag. A label tag contains attribute 'for' which will contain target elements 'id'
+
+ 'form' elements also have attributes such as 
+    action -- file/page to submit the data
+    method -- to represent the way to send the data . it is of two types
+    get and post.
+    get will send the data and include the data in URL
+    post will send the data but does not include in URL.
+
+  To send the data, every input should contain attribute 'name' to represent the name we use to send the data
+
+Different types of Inputs: 
+   1. text --- text is used for textual data such as usernames
+   2. email --- email is used for email address, it checks for '@' symbol.
+   3. password --- password is used for password, it will make text as solid dots.
+   4. number --- number is used for numerical inputs. it will not accept anything other than numbers
+   5. date --- date is used to select specific date. it provides calendar
+   6. datetime-local --- it is used to select specific date and time using calendar
+   7. time --- time is used to select specific time
+   8. color --- color is used to select specific color using color palette
+   9. file --- file is used to upload files 
+   10. url -- url is used to enter only valid urls
+   11. range -- range is used to select a specific range using slider
+   12. week/month --  week or month is used to select specific week or month of an year
+
+  Radio Buttons: These buttons are used to select a singular choice.
+  for eg: gender selection
+  <input type="radio" name="gender" value="male" id="m" />
+  <label for="m">Male</label>
+  <input type="radio" name="gender" value="female" id="f" />
+  <label for="f">Female</label>
+
+  checkBox : These checkBoxes are used to select multiple options at a time
+  for eg: Language selection
+ <input type="checkbox" name="lang" value="en" id="en">
+     <label for="en">English</label>
+     <input type="checkbox" name="lang" value="hin" id="hi">
+     <label for="hi">Hindi</label>
+     <input type="checkbox" name="lang" value="Tel" id="te">
+     <label for="te">Telugu</label>
+     <input type="checkbox" name="lang" value="kn" id="kn">
+     <label for="kn">Kannada</label>
+
+ Drop Down (Select) : sometimes, we need to select from lot of options. Either singular or multiple choices can be selected using select. select contains 'option'tags with each option having 'value' attribute.
+ Eg: selecting country or college names
+<select name="course" id="" multiple size="6">
+      <optgroup label="Engineering">
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="ECE">ECE</option>
+        <option value="MECH">Mechanical</option>
+        <option value="CIVIL">Civil</option>
+        <option value="AIML">AIML</option>
+      </optgroup>
+     <optgroup label="Degree">
+       <option value="BSC">BSC</option>
+      <option value="BCA">BCA</option>
+     </optgroup>
+      <optgroup label="Post grad">
+              <option value="MBA">MBA</option>
+      </optgroup>
+    </select>
+
+  hidden -- it is used to hide an input such that server can get data along with user submitted data without user's knowledge.
+           <input type="hidden" name="class" value="X">
+
+    textarea -- it is used to enter large amount of data , used for feedbacks, messages,addresses etc..,
+    textarea size can be changed using rows and columns values.
+             <textarea name="feedback" id="fd" rows="10" cols="20"></textarea><br><br>
+
+Form Validation:
+Is it possible to validate inputs in HTML without JS?
+Yes, it is possible using some attributes such as required, max,min,pattern etc..,
+  required: it is used to make input field mandatory before submitting the form.
+  min: it is used to provide minimum value to number input value
+  max: it is used to provide maximum value to number input
+  minlength : it is used to provide minimum length(no of characters) to text input
+  maxlength : it is used to provide maximum length to text input
+  disabled : it is used to make an input disabled and it will not be submitted.
+  readonly: it is used to make the input only readable and it will be submitted with the form.
+
+  Regular Expressions:
+    Regular Expressions or regex are used to validate patterns such as inputs , data etc.., They match patterns like a string and it uses lot of symbols with each symbol different purpose
+    1. []  -- it is used to represent a group
+    2. {}  -- it is used to specify a range
+        {a}-- exactly a characters
+        {a,} -- minimum a characters
+        {a,b} -- minimum a and maximum b characters
+    3. \d -- digits, \w -- words 
+    4. . -- wildcard -- any characters
+    5. * -- 0 or more of previous
+    6. + -- 1 or more of previous
+
+   email validation: [A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]{2,}
+   phno validation : [0-9]{10}
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

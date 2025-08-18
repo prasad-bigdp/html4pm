@@ -1,0 +1,18 @@
+HTML5: HTML5 offers lot of new features such as 
+responsive media(picture), semantic elements(header, footer,nav,figure),svg,canvas etc..,
+
+  svg(scalable vector graphics): it is an advanced feature in HTML which is used to draw grahics in HTML
+  <svg>
+  </svg>
+
+  we can draw circles usign circle tag
+  <circle cx="20" cx="y" r="50" fill="red"></circle>
+  we can draw rectangles using rect tag
+  <rect x="20" y="20" height="100" width="200" fill="green"></rect>
+  we can draw different shapes using path
+  <path d="M 20 20 L 60 50 L 30 10 L 20 20 Z" fill="red">
+
+  HTML5 also offers canvas,geolocation,drag and drop and data attributes.
+  These things will require JS code to make work
+
+

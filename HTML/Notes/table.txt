@@ -1,0 +1,33 @@
+Tables in HTML: Table is used to represent the data in rows and column. The horizontal line is called row and the vertical line is called column.
+Whole table is between table element. Each row in the table is represented by tr. Every row contains data using 'th' or 'td'(table headings or table data).
+ <table border="1">
+        <tr>
+            <th>sno</th>
+            <th>name of subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>Telugu</td>
+           <th>96</th>
+        </tr>
+        <tr>
+            <td>2</td>
+           <td>Mathematics</td>
+           <td>36</td>
+        </tr>
+    </table>
+
+Rowspan :  To combine rows, we use 'rowspan' with number of rows as value
+Colspan :  To combine columns, we use 'colspan' with number of columns as value
+
+caption: caption is used to represent the table description
+thead -- thead is used to combine certain rows as table head
+tbody -- tbody is used to combine certains rows as table body
+tfoot -- tfoot is used to combine certains rows as table footer
+
+
+
+
+
+

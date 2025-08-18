@@ -1,0 +1,112 @@
+HTML : 
+    HTML stands for HyperText Markup Language. it is the standard language to create web pages. it is created by Tim Berners Lee at CERN lab around 1992. it provides structure and content for webpages. web browsers usually render the HTML code and display the page. 
+    Main Advantages of HTML:
+      ---> it is easy to understand and works with all browsers
+      ---> it supports various contents such as text, images, buttons,videos 
+              inputs etc..,
+      ---> it enables hyperlinking so that user can move from one web page
+              to another web page
+To start HTML,we need a code Editor to write,run,debug the code.Most used code editor is Visual Code Studio
+     1. Download and Install VSCode from official Website "https://code.visualstudio.com/download"
+     2. create an empty folder and open this folder in VScode by using
+         file ----> open folder in VSCode
+     3. on left panel, there is an option for extensions, install below Extentions
+           Live Server by Ritwick Dey
+           Prettier by Prettier.io
+           Material Icon theme
+           setting---> uncheck compact folders
+Why only VSCode ?
+         VSCode have the most developer community and it have lot of Extensions to make your Work Easy
+
+First HTML Page:
+    1. create an HTML file named "index.html"
+    2.  In HTML, comments are written between <!--   and -->. These comments helps developers to understand code better
+    3. In HTML, Everything is represented by TAGS, They are like Building Blocks of HTML. Whole HTML is between html open and close tags.
+    <tagname>   --- open tag
+    </tagname>  --- close tag
+    4. Every tag will contain some properties such as title, height,width etc.., called attributes
+    <tagname attributeName="value">
+    5. Content of a particular tag will be between its open and close tags
+    <tagname>content</tagname>
+    6. whole page will be between HTML element and it contains two elements such as head and body.
+         head is used for meta data such as title element
+         body is used for Actual Content of Web Page
+
+    7. VSCode provides shortcuts to generate code called "emmets". The basic emmet to generate HTML template code is !+enter  (or) html:5+enter
+
+Heading and paragraphs: 
+        Heading are used to represent the text that needs to explored or important.By default , they are bold. HTML provides 6 headings ranging from h1 to h6. Each one differs in size and importance. h1 is the largest and important text and h6 is the smallest and least important heading.
+
+       Eg: <h1>content</h1>
+
+         paragraphs are used to represent general text which is not bold. we can generate dummy paragraph using "lorem" emmet
+         it uses 'p' tag
+
+        Eg: <p>some para</p>
+
+Anchor tag: Anchor is used to create hyperlinks that connects or navigates from one webpage to another web page
+ we use 'a' tag for this.
+ anchor tag have attributes such as:
+      href: represents hyper reference or the link or path of webpage to navigate
+      target : represents where to open the webpage (_blank will make webpage opened in new tab).
+      <a href="https://www.google.com">Click for Google</a>
+   <!-- open links in new tab -->
+    <a href="https://www.google.com" target="_blank">Click for Google</a>
+Using anchor tag we can even refer local pages, mails, social media or download also
+
+      <!-- to download a file -->
+      <a href="file path"  download>text</a>
+
+      <!-- download a file-->
+     <a href="./git-github.ppt.pptx" download>click here</a>
+
+     <!-- send a mail -->
+      <a href="mailto:abc@gmail.com">mail here</a>
+
+      <!-- call a number-->
+      <a href="tel:58585858">call me</a> 
+
+      <!-- watsapp me-->
+      <a href="https://wa.me/+918179191999">prasad</a>
+
+
+
+Images: 'img' tag is used to insert the images . img is a self closing tag. A self closing tag does not contain close tag. it is also called void element or unpaired tag
+     <img>   (or)   <img />
+     The image can be inserted using 'src' attribute which holds path of the image.
+     The 'alt' attribute represents alternate title of image which display only when 'src' is not loaded
+     we can also change the size of the image using 'height' and 'width' attribute.
+     
+    Sometimes, we need images have some description or caption.In that cases , we can use 'figure' tag
+    <figure>
+        <img src="" alt="" />
+        <figcaption>some text</figcaption>
+    </figure>
+
+  Different Formats of Images:
+    General Images will be in the format of Jpg,jpeg.
+    Transparent background images will be in the format of png
+    hight quality images are in the format of webp,avif(not recommanded)
+    playable images are in the format of gifs, but gifs will take lot of time to load in the web page. better alternative for gifs are lottiefiles
+    icon images are in the format of .ico (favicon)
+    <link rel="shortcut icon" href="https://icon-library.com/images/p-icon/p-icon-19.jpg" />
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

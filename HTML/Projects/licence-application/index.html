@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Licence Registration form</h1>
+    <form action="/licence">
+        <fieldset>
+            <legend>Signup form</legend>
+            <div>
+           <label for="nam">Enter full name</label>
+           <input type="text" name="fullname" id="nam">
+        </div><br/>
+        <div>
+           <label for="llr">Enter LLR No:</label>
+           <input type="text" name="LLR" id="llr">
+        </div><br/>
+        <div>
+           <label for="">Select Gender:</label><br>
+           <input type="radio" name="gender" id="m" value="male">
+           <label for="m">Male</label>
+           <input type="radio" name="gender" id="f" value="female">
+           <label for="f">FeMale</label>
+        </div><br/>
+        <div>
+               <label for="">Select Vechicles:</label><br>
+           <input type="checkbox" name="vehicle" id="2w" value="2w">
+           <label for="2w">2 Wheeler</label>
+           <input type="checkbox" name="vehicle" id="4w" value="4w">
+           <label for="4w">4 Wheeler</label>
+        </div><br>
+        <div>
+            <label for="">Choose the location:</label><br>
+            <select name="location" id="location">
+               <option value="Hyd">Hyd</option>
+               <option value="Khammam">Khammam</option>
+               <option value="Warangal">Warangal</option>
+               <option value="Ranga Reddy">Ranga Reddy</option> 
+            </select>
+        </div><br>
+      <div>
+          <label for="reason">Mention Why you want Driver Licence</label>
+        <textarea name="reason" id="reason"></textarea>
+      </div><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>

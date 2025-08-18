@@ -1,0 +1,12 @@
+Block vs Inline Elements:
+    In Html, elements are classified as two types, block and inline elements
+    Block elements are the elements that always takes place in new line. it won't allow any other elements beside them
+    div: div is a block container element which is used to combine multiple elements as a group but make the group as block.
+    span: span is a inline container element which is used to combine multiple elements as group but make the group as inline
+
+    semantic Elements: These elements are also container elements like div and span but these elements are more understandble to search engines.
+    These elements will not make any difference to the UI but it does to the code readability.
+    eg: header, footer, nav, aside, main,article,section
+
+
+    

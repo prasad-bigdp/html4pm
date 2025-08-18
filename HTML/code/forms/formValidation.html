@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.java">
+        <h1>Welcome to Prasad World</h1>
+        <input type="text" placeholder="Enter full name" name="na"  pattern="a?">
+        <br><br>
+        <input type="email" placeholder="Enter an email" pattern="[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]{2,}"><br><br>
+        <!---  a@a.ac  -->
+        <input type="number" name="age" placeholder="Enter your age" min="18" required max="56"><br><br>
+        <input type="password" name="pwd" placeholder="Enter password" minlength="8" maxlength="16"><br><br>
+        <input type="text" name="class" value="html" readonly><br><br>
+        <input type="number" name="pno" placeholder="Enter phone number" pattern="[0-9]{10}" disabled>
+        <input type="number" placeholder="Enter phone number" disabled>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

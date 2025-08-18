@@ -1,0 +1,13 @@
+Introduction to web development
+Figma (U & UX - Design)
+HTML 
+   -- Introduction
+   -- Headings,p,a,img
+   -- formatting tags
+   -- list , tables
+   -- block vs inline, semantic elements
+   -- media and HTML5
+   -- forms (form elements, different inputs)
+   -- form validations
+   -- Revision (Resume Project)
+Git & Github

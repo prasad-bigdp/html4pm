@@ -11,7 +11,7 @@ responsive media(picture), semantic elements(header, footer,nav,figure),svg,canv
   <rect x="20" y="20" height="100" width="200" fill="green"></rect>
   we can draw different shapes using path
   <path d="M 20 20 L 60 50 L 30 10 L 20 20 Z" fill="red">
-
+  
   HTML5 also offers canvas,geolocation,drag and drop and data attributes.
   These things will require JS code to make work
 

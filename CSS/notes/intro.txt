@@ -1,0 +1,79 @@
+CSS Introduction:
+  CSS stands for Cascading Style Sheets. Cascading refers to the styles that are applied to elements in a web page.CSS is used to style/design the layout or appearance of web pages.
+ 
+  CSS can be used in HTML in three ways
+     i. Inline Styling
+     ii. internal Styling
+     iii. External Styling
+
+i. inline styling: It is used to apply styles to a specific element using 'style' as atrribute.
+   <element style="property:value;.....">content</element>
+
+ii. internal Styling: It is used to appy styles to a specific element or multiple elements using selectors and style as an 'element'
+    <style>
+        selector
+        {
+          property:value;....
+        }
+    </style>
+
+    inline> internal
+
+ iii. Exteral Styling: it is used to apply styles to single/multiple elements in a separate file with .css extension and attach it to the HTML using 'link' tag
+    <link rel="stylesheet" href="path to css" />
+
+CSS styles of internal and External can override each other based on which comes last
+
+!important is the highest preference for properties
+h1{
+    color: red !important;
+}
+!important > inline >internal/external
+
+Basic selectors: 
+    To apply styles to multiple elements, we need to select the elements. For that, we use selectors. Most common selectors are:
+
+    i. Tag name selector: it is used to select all elements of specific tag name.
+         tagname{
+            properties:values;
+         }
+    
+    ii. class Name:  'class' is an attribute to elements which is used to select multiple elements. one element may contain multiple class names and multiple elements may contain the same class name
+      .className{
+        properties:value;
+      }
+
+    iii. id: id is used to identify an element uniquely. No two elements have same id and No element will contain more than one id
+    #idName{
+        properties:values;
+    }
+
+id>class>tagname
+   
+    iv. universal selector: if you want apply styles to all elements in a webpage, you can universal selector (*)
+
+    *{
+        text-align:center;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

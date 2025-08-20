@@ -1,0 +1,59 @@
+colors: Colors Decide the Brand  and user Interface of web page. it is recommanded to use colors according to the brand and target audience.
+colors can be mentioned in CSS in various ways. They are:
+   i. hexCode -- Every color will have an Hexa Decimal code of 6 digits followed by #
+   ii. RGB(Red, Green, Blue) -- Any color can be represented as a combination of colros red,green and blue from 0 to 255 values
+     we can even assign alpha 0.0 to 1.0 showing transparancy from lightness to darkness
+   iii. Name: VSCode provides multiple colors with name
+
+Fonts : Every font family in world belongs any one of these 5 types.
+    serif: These fonts have stroke at corners, eg: Times New Roman
+    sans-serif: These fonts not have strokes at corners, eg: Arial,calibri
+    Mono-space: These fonts have equal height of letters like a typewriter
+    Cursive: These fonts are styled and curved.
+    Fantasy: These fonts are used for special Effects
+
+How to get fonts in webpages
+    font-family : it is used to apply fonts to specific element
+    font-size : it is used to change the size of the font
+    font-weight : it is used to change the thickness of font(100-900/bold/bolder)
+    font-style: it is used to change the style of the font(normal/italic)
+
+  we can even import fonts from google using below procedure:
+  search "google fonts" --> select a font --> click "get font" -->click "Get embed code" -->select "import" and copy the code to css
+
+ Units: Units are used to measure the size of elements. Most used units are
+    px(pixels) -- it is the smallest unit of screen
+    %(percentage) -- it is used X% of parent's size
+    vh/vw -- it is the x$ of viewport height or viewport Width(viewport = screen)
+
+Background: we can assign a background color or background-image to the webpage using following properties
+   background-color: it is used to assign the color for background.
+   background-image : it is used to assign background images using url or gradients
+      background-repeat : repeat/repeat-x/repeat-y/no-repeat
+      background-position: left/right/center/top/bottom
+      background-size: decides the size of background
+                      auto/cover/contain
+      background-attachement :auto/scroll/fixed
+
+    Linear-gradients:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

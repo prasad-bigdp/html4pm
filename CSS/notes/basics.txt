@@ -35,7 +35,16 @@ Background: we can assign a background color or background-image to the webpage 
                       auto/cover/contain
       background-attachement :auto/scroll/fixed
 
-    Linear-gradients:
+    Linear-gradients:  gradients are the transformation of one color to another. linear graident assigns colors in straight way.
+         background-image:linear-gradient(position,color1,color2....)
+         position can be to left/to right/to bottom/to top/xdeg
+      we can even assign the gradient or image to text
+      color:transparant;
+      background-image:linear-gradient(color1,color2);
+      background-clip:text;
+
+   Radial-gradient: it is used to assign gradients circular way
+         background-image:radial-gradient(color1,color2)
 
 
 

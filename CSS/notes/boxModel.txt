@@ -1,0 +1,34 @@
+Box Model:  Browsers treat Every element as a Box. A Box contains
+   i. border
+   ii. border-radius
+   iii. padding
+   iv. margin
+
+i. border : border is the surrounding line for an element
+          border: size shape color;
+   we can even assign border-left,border-right,border-top,border-bottom
+
+ii. border-radius : it is the corner radius surround the border corners.
+         border-radius:size;
+         50% of border-radius make actual circle for square shape 
+         we can also assign each corner radius separately
+
+iii. padding: it is the space between border and actual content of element(inside the element)
+         padding:size;
+    we can also assign padding as padding-left,padding-right,padding-top,padding-bottom
+    Normally, padding makes each box increase its height or width because by default all are content boxes.so we need to use
+    box-sizing:border-box;
+
+iv. margin : it is the space outside the border . used for gap between the elements
+     margin:size;
+    we can also assign margin as margin-left,margin-right,margin-top,margin-bottom
+
+
+
+
+
+
+
+
+
+    

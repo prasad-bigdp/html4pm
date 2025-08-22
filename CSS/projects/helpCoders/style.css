@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0px auto;
+}
+h1{
+    font-size: 48px;
+        clear: left;
+}
+.subHeading{
+    color: green;
+}
+h2{
+    font-size: 24px;
+}
+a{
+    border: 1px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+   float: left;
+}
+img{
+   object-fit: fill;
+   height: 100%;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+

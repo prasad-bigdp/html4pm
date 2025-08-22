@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 150px;
+    float: right;
+}
+p{
+    clear: right;
+}
+.divv{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-size: 48px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    
+}
+.div2{
+    /* display: none; */
+    visibility: hidden;
+}
+
+

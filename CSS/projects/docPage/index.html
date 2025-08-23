@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20190406/ourmid/pngtree-doc-file-document-icon-png-image_913809.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="https://png.pngtree.com/png-vector/20190406/ourmid/pngtree-doc-file-document-icon-png-image_913809.jpg" alt="image">
+        <h2>docPage</h2>
+    </header>
+    <main>
+        <div class="leftDiv">
+            <ul>
+                <li><a href="#intro-html">Introduction to HTML</a></li>
+                <li><a href="#headings-html">Headings,p,a</a></li>
+                <li><a href="#image-html">image in HTML</a></li>
+                <li><a href="#Formatting-html">Formatting Tags</a></li>
+            </ul>
+        </div>
+        <div class="rightDiv">
+            <section id="intro-html">
+               <h3>Introduction to HTML:</h3>
+               <p>HTML, which stands for HyperText Markup Language, is the fundamental language used to create and structure content on the World Wide Web. It's the skeleton of any webpage, providing the framework upon which all other content, styles, and functionalities are built.
+
+What is Markup?
+The "Markup" in HTML refers to a system of tags that you use to "mark up" or annotate a document. These tags tell a web browser how to display the content. They are not displayed on the page themselves but instead act as instructions for the browser.
+
+Key Concepts
+1. Tags and Elements
+Tags are the basic building blocks of HTML. They are keywords enclosed in angle brackets, like <html>, <head>, <body>, <p>, <h1>, <a>.
+
+An Element consists of an opening tag, the content inside, and a closing tag. For example:
+
+<p>This is a paragraph.</p>
+
+<h1>This is a heading.</h1>
+
+Some elements are self-closing or "void elements" and don't have a closing tag, such as <img> and <br>.
+
+2. Structure of a Basic HTML Document
+Every HTML document follows a standard structure. A simple document looks like this:
+
+HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first paragraph on the web.</p>
+  </body>
+</html>
+<!DOCTYPE html>: This declaration defines the document type and version of HTML. It's essential for the browser to render the page correctly.
+
+<html>: This is the root element that encloses all the other HTML elements.
+
+<head>: This section contains meta-information about the document, such as the title, links to stylesheets (CSS), and scripts (JavaScript). The content in the <head> is not displayed directly on the webpage.
+
+<title>: The text inside this tag appears in the browser's title bar or tab.
+
+<body>: This is where the visible content of the webpage goes. All text, images, links, tables, and lists are placed within this element.
+
+3. Attributes
+Attributes provide additional information about an element. They are always specified in the opening tag and come in a name="value" pair.
+
+href attribute on an <a> (anchor) tag:
+<a href="https://www.google.com">Go to Google</a>
+Here, href is the attribute name and "https://www.google.com" is its value, specifying the link's destination.
+
+src attribute on an <img> (image) tag:
+<img src="image.jpg" alt="A beautiful landscape">
+Here, src specifies the image source, and alt provides alternative text for accessibility.
+
+How HTML Works with Other Technologies
+While HTML provides the structure, it works in conjunction with other web languages to create a fully functional and attractive website:
+
+CSS (Cascading Style Sheets): Used for styling the webpage. CSS controls the colors, fonts, layout, and visual presentation. Think of HTML as the blueprint of a house, and CSS as the paint, furniture, and decorations.
+
+JavaScript (JS): Used to add interactivity and dynamic behavior to a webpage. JS can handle events, manipulate the HTML, and communicate with web servers. It's the "brain" that makes the page respond to user actions.
+
+Why is HTML Important?
+Foundation: It's the core language of the web. You cannot have a webpage without HTML.
+
+Accessibility: Proper use of HTML tags is crucial for making a website accessible to users with disabilities, who may rely on screen readers and other assistive technologies.
+
+SEO: Search engines like Google crawl the HTML of a page to understand its content and structure, which is a key factor in search engine optimization (SEO).</p>
+            </section>
+            <section id="headings-html">
+                <h3>Headings-p-a:</h3>
+                <p>That's a great choice. These three elements are fundamental to creating structured and readable web content. Let's break down each one with clear details.
+
+1. Headings (<h1> to <h6>)
+Headings are used to define the structure and hierarchy of your content. They act like an outline for your document, making it easier for both users and search engines to understand the main topics and sub-sections of a page.
+
+Syntax:
+
+HTML
+
+<h1>Main Heading</h1>
+<h2>Sub-heading</h2>
+<h3>Sub-sub-heading</h3>
+Purpose:
+
+Hierarchy: <h1> is the most important heading and should be used for the main title of the page (there should typically only be one <h1> per page). <h2> is for major sections, <h3> for sub-sections within an <h2>, and so on, down to <h6>.
+
+Readability: They break up long blocks of text and help users quickly scan a page to find the information they need.
+
+Accessibility: Screen readers use headings to navigate a page, allowing users with visual impairments to jump from one section to another.
+
+SEO: Search engines use heading tags to understand the key topics and structure of your content, which can improve your search rankings.
+
+Best Practices:
+
+Use headings to create a logical outline. Do not use them simply to make text bold or larger (that's what CSS is for).
+
+Use the headings in order. For example, don't jump from an <h2> to an <h4> without using an <h3> in between.
+
+Keep headings concise and descriptive.
+
+2. Paragraphs (<p>)
+The paragraph element is used to group related sentences into a single block of text. It's the most common element for displaying general text content on a webpage.
+
+Syntax:
+
+HTML
+
+<p>This is a paragraph of text. It can contain multiple sentences and will be displayed as a single block on the webpage.</p>
+<p>You can create multiple paragraphs by using a new `<p>` tag for each one.</p>
+Purpose:
+
+Content Display: The primary function is to contain and display text.
+
+Separation: Browsers automatically add a small amount of space (margin) before and after a paragraph, visually separating it from other elements.
+
+Readability: Like headings, paragraphs break up content and make it more scannable and digestible for the reader.
+
+Best Practices:
+
+Use <p> for blocks of text, not for single lines or separating content with an empty line (use <br> for a line break if needed, but this is less common).
+
+Do not use empty <p> tags to create space between elements; use CSS for proper spacing and layout.
+
+3. Links / Anchors (<a>)
+The anchor element is used to create hyperlinks, which are the backbone of the web. Links allow users to navigate from one page to another, either within the same website or to an external site.
+
+Syntax:
+
+HTML
+
+<a href="https://www.google.com">Go to Google</a>
+Key Attribute: href
+
+href stands for Hypertext Reference. This is the most important attribute of the <a> element. Its value is the URL (Uniform Resource Locator) that the link points to.
+
+Types of URLs:
+
+Absolute URL: A full web address, like https://www.example.com/page.html (used for linking to external websites).
+
+Relative URL: A path relative to the current file, like about.html or /images/pic.jpg (used for linking to pages or files within the same website).
+
+Other Useful Attributes:
+
+target="_blank": Opens the linked document in a new browser window or tab.
+
+title="Go to the homepage": Provides extra information about the link, which appears as a tooltip when the user hovers over it.
+
+id and name: Used to create "internal links" or "anchors" that jump to a specific section within the same page.
+
+HTML
+
+<h2 id="section1">Introduction</h2>
+<a href="#section1">Jump to Introduction</a>
+Purpose:
+
+Navigation: Connects pages together to form a website.
+
+User Interaction: Allows users to access resources, download files, or send emails (using mailto: in the href).
+
+Best Practices:
+
+The text inside the <a> tag should be clear and descriptive. Avoid vague phrases like "Click Here." Instead, use "Learn more about HTML" or "Download the PDF."
+
+Ensure that the href URL is correct and functional.</p>
+            </section>
+            <section id="image-html">
+                <h3>Images in HTML:</h3>
+                <p>The <img> tag is used to embed an image into an HTML document. Unlike most other HTML elements, the <img> tag is a "void element," which means it's self-closing and does not have a separate closing tag.
+
+Syntax
+The basic syntax for an image is:
+
+HTML
+
+<img src="url" alt="description">
+Key Attributes
+Images require two essential attributes to work correctly and provide the best user experience:
+
+src (Source): This is the most crucial attribute. It specifies the URL or path to the image file you want to display. The path can be:
+
+An absolute URL to an image on the web (e.g., https://example.com/images/photo.jpg).
+
+A relative path to an image on your own server (e.g., images/photo.jpg or ../photo.jpg).
+
+alt (Alternative Text): This attribute provides a text description of the image. This text is incredibly important for several reasons:
+
+Accessibility: Screen readers for visually impaired users read the alt text aloud, allowing them to understand the content of the image.
+
+Image Loading Errors: If the image fails to load, the alt text is displayed in its place, so the user still has an idea of what the image was supposed to be.
+
+SEO: Search engines use alt text to understand the content of images, which helps with search engine optimization.
+
+Example
+Here's an example of how to use the <img> tag. The image is a landscape photo.
+
+HTML
+
+<img src="http://googleusercontent.com/image_collection/image_retrieval/9436157350401189523_0" alt="A beautiful landscape with mountains and a clear sky.">
+Other Important Attributes
+width and height: These attributes specify the dimensions of the image in pixels. While you can use them to control the size, it's generally better to use CSS for this as it offers more flexibility. However, specifying width and height in HTML helps browsers reserve the correct amount of space for the image before it loads, preventing layout shifts.
+
+title: This attribute provides extra information about the image. The text in the title attribute appears as a tooltip when a user hovers over the image. It's often used to provide a caption or a brief description.
+
+Best Practices
+Always use the alt attribute: This is the most important rule. Providing descriptive alt text makes your website accessible and helps with SEO.
+
+Use descriptive filenames: Name your image files something meaningful (e.g., mountain-landscape.jpg instead of IMG_1234.jpg).
+
+Optimize your images: Before you put images on your website, make sure they are properly sized and compressed to ensure fast loading times. Large, unoptimized images can significantly slow down a website.
+
+Consider image formats: Choose the right image format for your needs (e.g., JPEG for photographs, PNG for images with transparency, SVG for scalable vector graphics).</p>
+            </section>
+            <section id="Formatting-html">
+                <h3>Formatting Tags</h3>
+                <p>In HTML, "formatting tags" (more accurately called "text-level semantics" in modern HTML5) are used to apply specific meaning and visual styling to parts of a text. While many of these can also be achieved with CSS, using the appropriate HTML tag provides semantic meaning to the content, which is crucial for accessibility and search engines.
+
+Here is a breakdown of the most common text formatting tags.
+
+1. Strong Importance & Bold Text
+<strong>: This tag is used to indicate that the enclosed text has strong importance or seriousness. By default, browsers render the text in bold.
+
+Example: This is a <strong>very important</strong> message.
+
+<b>: This tag is used to draw the reader's attention to the enclosed text without conveying extra importance. It's simply for a stylistic offset.
+
+Example: The product is available in a <b>large</b> and <b>small</b> size.
+
+When to use which? Use <strong> when the text is semantically important (e.g., a warning or a key term). Use <b> when you just want to make the text bold for visual emphasis, like a keyword in a paragraph or the first word of a heading.
+
+2. Emphasis & Italic Text
+<em>: This tag is used to indicate emphasis. The browser typically renders the text in italics.
+
+Example: I *really* enjoy learning HTML. (<em> is the correct semantic tag here)
+
+<i>: This tag is used to indicate text that is in an alternative voice or mood, or for a specific purpose like a technical term, a foreign phrase, or a character's thought. The text is also typically rendered in italics.
+
+Example: The ship sailed into the harbor, a truly *serene* sight. (<i> is correct here for the word "serene")
+
+When to use which? Use <em> when you want to emphasize a word or phrase to change the meaning of a sentence. Use <i> for stylistic or technical reasons that don't imply emphasis.
+
+3. Underlined, Inserted, and Deleted Text
+<u>: This tag is used to represent a span of text that should be stylistically different from normal prose, such as a proper name or a spelling error. It is not for underlining text.
+
+Example: The <u> tag is now used to represent an unarticulated annotation.
+
+<del>: This tag indicates text that has been deleted from the document. Browsers usually display a strikethrough line over the text.
+
+Example: The original price was <del>$50</del> and the new price is $40.
+
+<ins>: This tag indicates text that has been inserted into the document. Browsers typically display it with an underline. It is often used in combination with <del>.
+
+Example: The updated price is <ins>$40</ins>.
+
+4. Subscript and Superscript
+<sub>: This tag defines subscript text. It is used for things like chemical formulas or mathematical variables. The text appears half a character below the normal line.
+
+Example: The chemical formula for water is H<sub>2</sub>O.
+
+<sup>: This tag defines superscript text. It is used for things like exponents, footnotes, or ordinal numbers. The text appears half a character above the normal line.
+
+Example: The famous equation is E=mc<sup>2</sup>.
+
+5. Other Common Formatting Tags
+<mark>: This tag is used to highlight or mark text for reference or notation purposes.
+
+Example: Please remember to <mark>bring your ID</mark>.
+
+<small>: This tag represents side comments, such as copyright notices or legal disclaimers, and makes the text smaller.
+
+Example: <p><small>Copyright 2024 My Website</small></p>
+
+<abbr>: This tag is used for abbreviations. It provides the full term in the title attribute, which is useful for accessibility and gives users a tooltip on hover.
+
+Example: <abbr title="HyperText Markup Language">HTML</abbr>
+
+<cite>: This tag is used to represent the title of a creative work, such as a book, movie, or song. The text is typically rendered in italics.
+
+Example: <p>I read the book <cite>The Hitchhiker's Guide to the Galaxy</cite> last week.</p>
+
+Important Note on Semantics
+While many of these tags have default visual styles (like bold or italic), the primary purpose of modern HTML is semantics (meaning). You should use the tag that best describes the purpose of the content. For pure stylistic changes (like changing a font color or size), you should use CSS (Cascading Style Sheets). This separation of content (HTML) and style (CSS) is a core principle of modern web development.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        This page belongs to P.R.A.S.D &copy; 2025
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+Position: Position is used to keep elements at different places in user interface. There are 5 positions available in css such as 
+    i. absolute
+    ii. relative
+    iii. static
+    iv. fixed 
+    v. sticky
+
+ i.  static : By Default , all elements are static. static elements cannot have top,left,right,bottom
+ ii. absolute : Absolute Elements move according to the position of body.so, left:0px will actually move towards leftmost end of screen .
+ Scrolling have impact on absolute.
+ iii. relative : relative Elements move according to the position of current position . so, left:0px will not have impact towards it.
+ iv. fixed : fixed Elements also move according to body but it will not scroll
+ v. sticky : sticky is nothing but relative+fixed, so initially it stays like relative but once it reaches certain point, it becomes fixed until it parent end reached
+
+
+
+ 
+
+
+
+

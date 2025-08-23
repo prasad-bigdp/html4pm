@@ -1,0 +1,44 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* position: static; */
+    /*position: relative;
+    /* left: 100px;
+    top: 100px; */
+    /* right: 50px;
+    bottom:50px; */
+    /*bottom: 0px;
+
+} */
+ body{
+    height: 1000vh;
+ }
+ /* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* position: absolute; */
+   /* position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+ } */
+   .box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    /* position: absolute; */
+   
+ }
+ .mainBox{
+    border: 2px solid green;
+    height: 500px;
+    width: 200px;
+ }
+ .box1{
+    background-color: blue;
+     position: sticky;
+    top:100px;
+    border-radius: 50%;
+ }

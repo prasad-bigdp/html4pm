@@ -1,0 +1,19 @@
+#image{
+    height: 300px;
+    width: 300px;
+    transition: all 1s linear;
+    /* position: absolute;
+    top: 0%; */
+    filter:invert()
+}
+#image:hover
+{
+    /* height: 400px;
+    width: 400px; */
+    /* transform: rotate(360deg); */
+    /* transform: translateX(1000px); */
+    /* transform: skew(40deg); */
+    /* position: absolute;
+    top: 50%; */
+    filter: none;
+}

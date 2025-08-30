@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 48px;
+    padding: 20px 0px;
+    background-color: rgb(251, 125, 146);
+    color: white;
+}
+ #categories{
+    display:  flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+    margin:50px auto;
+ }
+ .category{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-top-left-radius: 50%;border-top-right-radius: 50%;
+    background-color: rgba(251, 125, 146,0.5);;
+ }
+ .title{
+    text-align: center;
+    margin: 20px;
+ }
+ .category>img{
+    height: 75px;
+    border-radius: 50%;
+ }
+
+  #deals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    max-width: 1280px;
+    gap: 20px;
+  }
+  .product>img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+  }
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 5px 5px 10px rgb(251, 125, 146);;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .oldPrice{
+    text-decoration: 2px solid black line-through;
+    margin: 0px 5px;
+  }
+  button{
+    width: 100%;
+    background-color: black;
+    padding: 20px 0px;
+    color: white; border-radius: 40px 0px 40px 0px ;
+  }
+#floating-watsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#floating-watsapp img{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0px;
+    background-color: rgb(251, 125, 146);
+    color: white;
+    margin-top: 20px;
+}

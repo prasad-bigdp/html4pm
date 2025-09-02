@@ -1,0 +1,26 @@
+Media Queries : Media Queries are used for responsiveness of the website. We can make the styles(css) works for specific widths. eg:
+      large devices --- >=1400px
+      laptops  --- >=1280px to  <1400px
+      desktop ---- >=1080px to <1280px
+      tablets ---  >=768px  to <1080px
+      mobiles(landscape) ---   >=576px to <768px
+      mobiles(portrait)  ---   0 to <576px
+
+BEst Approach for web design is Mobile First Design(MFD)
+
+    @media (min-width:1280px) and (max-width:1400px){
+        /* laptops*/
+    }
+
+
+Animations : Animations are used to make an element goes through multiple states. Every Animation contain following properties such as
+     Animation-name  : name of the Animation
+     Animation-duration : time of the Animation(in seconds)
+     Animation-timing-function : controls the speed of animation(ease/ease-in/ease-out/ease-in-out/linear)
+     Animation-iteration-count : number of times animation repeats(number or infinite)
+     Animation-direction : decides which direction animation should run(normal/reverse/alternate/alternate-reverse)
+     Animation-delay : time to delay the animation(in seconds);
+
+We can also use websites like "lottifiles" or "animista" for Animations
+
+

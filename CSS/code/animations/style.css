@@ -1,0 +1,78 @@
+#box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.heart{
+    height: 100px;
+    width: 100px;
+    animation: zoomIn 1s ease infinite alternate;
+}
+.heart1{
+    animation-delay: 0.1s;
+}
+.heart2{
+    animation-delay: 0.2s;
+}
+.heart3{
+    animation-delay: 0.3s;
+}
+.heart4{
+    animation-delay: 0.4s;
+}
+.heart5{
+    animation-delay: 0.5s;
+}
+.heart6{
+    animation-delay: 0.6s;
+}
+.heart7{
+    animation-delay: 0.7s;
+}
+.heart8{
+    animation-delay: 0.8s;
+}
+.heart9{
+    animation-delay: 0.9s;
+}
+@keyframes zoomIn {
+    100%{
+        transform:translateY(600px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+body{
+     /* animation: prasadJump 1s ease ; */
+
+}
+   
+@keyframes prasadJump{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: green;
+    }
+    40%{
+ background-color: rgb(51, 0, 128);
+    }
+    60%{
+ background-color: rgb(128, 90, 0);
+    }
+    80%{
+ background-color: rgb(128, 0, 124);
+    }
+    100%{
+        background-color: yellow;
+    }
+}

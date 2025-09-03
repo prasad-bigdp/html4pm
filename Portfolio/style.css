@@ -6,6 +6,13 @@
 body{
     height: 100vh;
 }
+.floating-watsapp{
+  position:fixed;bottom: 20px;right: 10px;
+}
+.floating-watsapp img{
+  height: 100px;width: 100px;
+  animation: zoomIn 0.5s ease infinite alternate;
+}
 header{
     display: flex;
     max-width: 1280px;
@@ -14,7 +21,8 @@ header{
     justify-content: space-between; border-radius: 40px;box-shadow: 2px 3px 10px gray;
     align-items: center;
 }
-.logo{ font-size: 48px;}
+.logo{ font-size: 48px;
+animation: upDown 0.5s ease alternate infinite;}
 .logo>span{
     color: blue;
 }
@@ -36,3 +44,157 @@ nav button{
     padding: 10px;
     border-radius: 50%; background-color: gray;color: white;font-size: 24px;
 }
+/* header css over*/
+/* banner css starts*/
+ #banner{
+    display: flex;
+    max-width: 1280px;
+    margin:50px auto;
+    gap: 50px;
+ }
+ .right>img{
+    width: 100%;
+    height: 100%;
+    animation: slideFromRight 1s ease;
+ }
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .left>h2{
+    font-size: 32px;
+  }
+  #role{
+    color: blue;
+  }
+  .left>p{
+    font-size: 24px;
+    color: gray; text-align: justify; line-height: 28px;
+  }
+  .buttons>button{
+    padding: 15px 30px;
+    background-color: black;color: white; font-size: 24px; border-radius: 20px;
+  }
+  button>a{
+    color: white; text-decoration: none;
+  }
+  .secondBtn{
+    background-color: white !important;border: 1px solid black ;
+  }
+  .secondBtn>a{
+    color: black;
+  }
+  /* banner css done */
+  /* skills section */
+   .title{
+    text-align: center;font-size: 32px; margin: 20px auto;
+    background-image: linear-gradient(to right,white,blue);
+    background-clip: text;color: transparent;
+   }
+   section{
+    margin:100px auto;max-width: 1280px; display: flex; gap: 30px;
+   }
+   .skill-tech{
+    display: flex; flex-direction: column; padding: 20px;gap: 20px; border-radius: 20px;
+    box-shadow: 5px 5px 10px blue;
+   }
+   .skills{
+    display: grid;grid-template-columns: repeat(3,1fr);gap: 20px;
+   }
+   .skill{
+    height: 100%;width: 100%;
+   }
+
+/* projects */
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.project{
+    padding:20px;
+    border-radius: 20px; box-shadow: 5px 5px 10px blue; display: flex; flex-direction: column;
+    gap: 10px;
+}
+.project>img{
+    width: 100%;
+}
+.project>button{
+    background-color: black;
+    color: white;font-size: 24px;padding: 10px;border-radius: 20px;
+}
+/* projects css over*/
+/* contact css starts */
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; padding: 20px;margin: 20px auto;
+    border-radius: 20px; box-shadow: 5px 5px 10px blue;
+}
+footer{
+    background-color: black;color: white;
+    padding: 10px; text-align: center;
+}
+/* animations */
+@keyframes slideFromRight{
+  0%{
+    transform: translateX(500px);
+  }
+  100%{
+  transform: translateX(0px);
+  }
+}
+@keyframes upDown{
+  100%{
+  transform: translateY(-10px);
+  }
+}
+@keyframes zoomIn{
+  100%{
+  transform: scale(1.1);
+  }
+}
+
+/* media queries */
+   @media (max-width:576px){
+      header{ flex-direction: column; gap:20px; margin: 50px;}
+      nav{flex-direction: column;}
+      #banner{
+        flex-direction: column;
+      }
+      section{
+        margin: 25px !important;
+      }
+      .right>img{display: none;}
+      .buttons{ display: flex; flex-direction: column;gap: 10px;}
+      #skills{
+        flex-direction: column;
+      }
+      #projects{
+        grid-template-columns: repeat(1,1fr);
+      }
+   }
+   @media (min-width:577px) and (max-width:768px){
+      header{ flex-direction: column; gap:20px; margin: 50px;}
+      nav{flex-direction: column;}
+      #banner{
+        flex-direction: column;
+      }
+      section{
+        margin: 40px !important;
+      }
+      .buttons{ display: flex; flex-direction: column;gap: 10px;}
+      #skills{
+        flex-direction: column;
+      }
+      #projects{
+        grid-template-columns: repeat(2,1fr);
+      }
+   }
+    @media (min-width:769px) and (max-width:996px){
+    
+   }
+    @media (min-width:996px) and (max-width:1024px){
+    
+   }

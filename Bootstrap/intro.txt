@@ -1,0 +1,10 @@
+Bootstrap : Bootstrap is CSS Library which is used to build production ready website including responsiveness. It provides CSS and JS links .
+A Library is nothing but a pre written code used for specific purpose.
+we can access Bootstrap through CDN (content Delivery Network) Links and the official version of Bootstrap is Bootstrap5
+website : https://getbootstrap.com
+How to start Bootstrap ?
+   step 1: goto official website and click on docs
+   step 2: goto introduction  and check CSS Link tags (cdn links) and copy and paste css links into our HTML 'head'
+   step 3: Assign appropriate className and you will get its styles
+
+

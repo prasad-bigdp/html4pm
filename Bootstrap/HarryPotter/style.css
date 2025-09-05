@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: PrasadFont;
+    src: url('./MagicSchoolOne.ttf');
+}
+body{
+    font-family: PrasadFont;
+    font-size: 72px;
+    height:100vh;
+}

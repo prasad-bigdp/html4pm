@@ -7,4 +7,24 @@ How to start Bootstrap ?
    step 2: goto introduction  and check CSS Link tags (cdn links) and copy and paste css links into our HTML 'head'
    step 3: Assign appropriate className and you will get its styles
 
+Bootstrap Provides classnames for css such as
+    Border : border, border-size,border-color
+    Bootstrap sizes always from 0 to 5 and colors are primary(blue),secondary(gray),success(green),danger(red),dark(black),light(white),warning(yellowish orange),info(skyblue)
+
+    Border-radius : rounded,rounded-size,rounded-top,rounded-bottom,rounded-start,rounded-end,rounded-circle,rounded-pill
+
+    padding: p-size,pt-size,pb-size,ps-size,pe-size,px-size,py-size
+
+    margin: similar to padding but m instead of p
+
+    float : float-start,float-end,float-none
+    display : d-none d-block,d-inline,d-inline-block
+    flex : d-flex, flex-direction,justify-content-start/between/end/center/around/evenly, align-items-center/start/end, gap-size
+
+
+
+
+
+
+
 

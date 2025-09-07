@@ -1,14 +1,25 @@
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 @font-face {
     font-family: PrasadFont;
     src: url('./MagicSchoolOne.ttf');
 }
 body{
     font-family: PrasadFont;
-    font-size: 72px;
     height:100vh;
+    cursor: url('https://thumbs.dreamstime.com/b/magic-wand-elder-isolated-white-background-253529405.jpg') !important;
+}
+h1{
+        font-size: 72px;
+        
+}
+h1:hover{
+    animation: prasad 1s ease infinite alternate;
+}
+@keyframes prasad {
+    0%{
+        background-color: green;
+    }
+    100%{
+        background-color: red;
+    }
 }

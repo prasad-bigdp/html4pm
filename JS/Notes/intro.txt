@@ -1,0 +1,74 @@
+Javascript :  Javascript is a client side Programming Language which is used build interactive websites using HTML and CSS. Javascript controls the behaviour of web pages and provides functionality to the web pages
+
+    Javascript was created in 1995(dec 4) by Breden Eich while working at Netscape. Initially it is named as Mocha later changed as LiveScript. To use the popularity of Java, Livescript renamed as Javascript
+
+Javascript runs in the Browsers because Every Browser contains an Engine to run Javascript called JS Engine. The popular JS Engines are v8(chrome),spiderMonkey(mozilla),chakra(edge). It can also run without Browsers, on server called node JS.
+
+Javascript is a high level, dynamic Programming Language that makes website alive. 
+Think building a website is like building a house
+  HTML --- the walls, windows, doors (structure) -- what we see
+  CSS  --- painting, decorations,style      -- how it looks
+  JS   --- electricity, water, switches     -- how it works
+
+How to Include JS in HTML ?
+we can include JS in HTML in two ways . They are:
+   i. Internal Javascript
+   ii. External Javascript
+
+i. Internal Javascript : we can include Javascript using 'script' as a element
+     eg : 
+         <script>
+            here you can write javascript
+
+         </script>
+
+ii. External Javascript : we can include External Javascript file(.js file) to HTML using script tag with src 'attribute'
+     eg: <script src="filepath" ></script>
+
+In Javascript , there are two types of comments
+   a. single line, starts with '//'
+   b. multi line , starts with '/*' and ends with '*/'
+comments are used for user readability purpose
+
+variables in Javascript: In Javascript , we can declare a varible using keywords such as 'var' ,'let' and 'const'. variables / literals are used to store the values
+  Difference between var, let and const
+  var                         let                                const
+ 'var' variables can be     let and const variables 
+  redeclared                cannot be reclared
+  eg: var a=10;
+  var a=20;
+ 
+  'var' variables can be    'let' variables can also be      'const' varibles cannot be
+  changed                   changed                           changed
+  eg: var a=10;             eg:let a=10;
+  a=20;                       a=20
+
+  var variables are       let and const are block scoped variables
+  function scoped
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

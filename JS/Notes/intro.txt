@@ -46,7 +46,8 @@ variables in Javascript: In Javascript , we can declare a varible using keywords
   var variables are       let and const are block scoped variables
   function scoped
 
-
+To accept input , we use one method called prompt. but prompt accepts only strings.
+let a = +prompt("enter a value")
 
 
 

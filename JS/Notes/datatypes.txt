@@ -1,0 +1,54 @@
+DataTypes in Javascript:
+  Javascript is a dynamic programming language. it means in Javascript, there is no fixed datatype to a variable. The datatype of a variable is decided by value it is holding.
+
+  There are two categories of datatypes:
+     i. primitive data DataTypes
+     ii. non primitive datatypes
+
+    i. primitive datatypes : These datatypes holds the value and compares only value. These datatypes are immutable.
+      There are 5 basic primitive DataTypes such as
+      number, string, boolean, undefined , null
+
+    ii. non primitive DataTypes : these datatypes holds the value and compares the address/reference . These datatypes are mutable
+        The basic non primitive datatypes are 
+        functions, arrays, objects
+
+can we change one datatype to another datatype?
+  yes, The process of changing one datatype to another datatype is called typecasting. There are two types of typecasting
+  i. implicit typecasting
+  ii. explicit typecasting
+
+i. implicit typecasting : it is the default or automatic conversion of datatypes based on operation
+  eg:  10 + "5"  ===> "10"+"5" ===> "105",
+    5 * '4' ===> 5*4 ==>20
+  
+
+ii. explicit typecasting : it is the forced way of converting one datatype to another
+  eg :   5 + +'4' ===> 5 + 4 ==>9
+         5 + Number('4') ==> 5+4==>9
+
+number : Any numerical value is a number
+  Every number can have some default methods such as toString, toPrecision etc..,
+  numbers also have math methods such as sqrt, cbrt, pow, ceil, floor etc..,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+Operators : Operators are used to perform operations. There are different types of Operators such as
+  i. Arithematic Operators : + , - , * ,/(direct division), % (remainder) , **(power)
+  ii. relational Operators: These Operators are used for comparision
+      >  , < , >=, <= ,
+      ==   -- it will compare only values not datatypes
+      ===  -- it will compares value and datatype
+      !=  --  returns negation of ==
+      !== -- returns negation of ===
+  iii. logical Operators : These Operators are used for combining statements logically
+     && (logical and) -- it will return true only if both are true
+     || (logical OR) -- it will return true when any one statement is true
+     ! (logical NOT) -- it will return true when actual statement is false
+
+  iv. increment and decrement : These are unary operator which is used to increment (increase the value by 1) and decrement(decrease the value by 1)
+    pre-increment : it first updates the value and returns it
+    post-increment : it first returns the value and updates it.
+    similar to decrement also
+    b= 10 ; ++b ---> 11
+    b=10 ; b++ ---> 10  , b value will becomes 11 later
+
+  v. Ternary Operator or conditional Operator:
+      it is the shorthand operator used to check the condition true or false and make a decision based on that value
+      let a = 10;
+      let c = (a>5) ? 20  : 30 ;
+
+  vi. nullish coalescing operator: it will check two values and return first value if it is not undefined or null, else it returns second value
+        let a= 10;
+        let b =20;
+        let c = a ?? b;
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

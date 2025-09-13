@@ -1,0 +1,18 @@
+Basic Javascript
+==================
+    Introduction
+    Datatypes
+       numbers -- methods, math
+       string --- methods
+       boolean,undefined , null
+    operators
+    control statements(if, switch)
+    loops (while , do while, for, for of, for in)
+    functions
+    Arrays
+    Objects
+
+DOM
+==================
+Advanced Javascript
+===================

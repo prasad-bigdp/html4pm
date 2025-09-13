@@ -31,6 +31,82 @@ number : Any numerical value is a number
   Every number can have some default methods such as toString, toPrecision etc..,
   numbers also have math methods such as sqrt, cbrt, pow, ceil, floor etc..,
 
+   1. toFixed(n) : it is used to return roundup value of n decimal digits
+   2. toPrecision(n): it is used to return roundup value of n total digits
+   3. toString(base) : it is used to convert number to a string and different base system
+   Eg: let x = 25.4164
+          x.toFixed(2)  ===> 25.41
+          x.toPrecision(3) ===> 25.4
+          x=25;
+          x.toString(2)   ===>11001
+  
+  Most used Math Methods are:
+    Math.sqrt(16) -- returns square root of 16 -- 4
+    Math.cbrt(27) -- returns cube root of 27 -- 3
+    Math.pow(2,3) -- return 2 power 3 -- 8
+    same thing can be done like 2**3
+    Math.abs(-5)  -- returns absolute value, always positive -- 5
+    Math.max(5,1,6,2) -- returns maximum value -- 6
+    Math.min(5,1,6,2) -- returns minimum value -- 1
+    Math.ceil(2.1) -- returns nearest greater value -- 3
+    Math.floor(2.8) -- returns nearest smaller value -- 2
+    Math.round(1.4) -- returns nearest integer -- 1
+    Math.random() -- returns random value between 0 and 1
+
+
+
+String:  String is collection of characters.
+Eg: "abc124", "abc 124"
+In Javascript string can be written single or double quotes. There is no difference between but used alternatively in nested strings
+Strings can also dynamic called "template literal". it uses backticks for strings and ${} for dynamic values
+let x = "john"
+console.log(`The name is ${x}`)
+
+ string methods: 
+     toUpperCase() -- used to convert string into UpperCase
+Note: original string will never change since strings are immutable
+     toLowerCase() -- used to return converted value of string into lowercase
+     length -- used to return number of characters , the string contains
+     charAt(i) -- used to return character at index i
+     indexOf('c') -- used to return first occurance of index of character c 
+     lastIndexOf('c') -- used to return last occurance of index of character c
+     startsWith('str') -- used to return true/false based on string is starting with str or not
+     endssWith('str') -- used to return true/false based on string is ending with str or not
+     slice(s,e) -- used to return substring from index s to index e-1
+     slice(s) -- used to return substring from index s to end
+     split(v) -- used to split the string based on value v and return an array of sub strings
+     eg: "prasad".split('a')   ===>['pr','s','d']
+     replace(old,new) -- used to replace first occurance of old value to new value. for all occurances, we can use replaceAll
+     trim()  -- used to return string after removing the spaces from starting and ending of string
+  
+  Boolean : boolean is used to store true/false. if converted to number, true is converted as 1 and false is converted as 0.
+
+  undefined: undefined is the primitive datatype/value that represents uninitialized or non existent element
+
+  let y ;
+  console.log(y) // undefined
+  undefined expects future occupance of value
+
+  null:  null is also the primitive value that indicates a variable has no value or no object
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

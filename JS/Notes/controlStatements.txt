@@ -1,0 +1,83 @@
+The Decision Making Statements : These are also called control Statements which are used to control the flow of code based on a condition/decision. Most used decision Making Statements are
+   if
+   switch
+
+if: if is used as a control Statement where it leads to a block of code if the condition is true
+There are multiple variations for if such as
+   i. simple if : 
+          if(condition){
+            //Statements
+          }
+    it deals with if only when condition is true and it executes block of Statements
+
+  ii. if - else :
+          if(condition){
+            //Statements
+          }
+          else{
+            //Statements
+          }
+    if the condition is true , it will lead to the "then block" else it will leads to the "else block".
+
+  iii. if - else - if:
+           if(condition){
+            //Statement
+           }
+           else if(condition){
+            //Statements
+           }
+           else{
+            //Statements
+           }
+
+      if condition is true , it will lead to the "then block", else again it check another condition and repeats this until last else part.
+
+  iv. nested if : we can even keep an if Statement inside another if called "nested if"
+       if(condition1){
+        if(condition2){
+            //Statements
+        }
+       }
+
+  switch:  switch works with multiple conditions using cases. it is an alternative approach on if -else-if. But Each case should be terminated by using keyword "break" else it falls to the next case and always needs a case for "default" entry
+      switch(expression/values)
+      {
+        case value1:  //Statements; break;
+        case value2:  //Statements; break;
+        case value3:  //Statements; break;
+        case value4:  //Statements; break;
+        default: //Statements
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

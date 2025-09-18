@@ -1,0 +1,92 @@
+Loops:  Loops are used to iterate certain statements again and again until the condition fails. 
+There are two kinds of Loops
+   i. Entry control Loops
+   ii. Exit control Loops
+
+i. Entry control Loops : These loops are used to check the condition at the starting of loop  and run the statements if the condition is true, once the statements are over, it again check the condition and repeats the process
+   eg: while and for
+
+  while : while is an entry control loop which uses condition, updation and initialization in 3 different statements
+     syntax:  initialization;
+              while(condition)
+              {
+                //statements
+                updation;
+              }
+
+  eg: print numbers 1 to 10 using while
+          let  i = 1;
+          while(i<=10)
+          {
+            console.log(i);
+            i++;
+          }
+  For : For is also an entry control loop which is used to iterate certain statements by using initialization, condition and updation in the same line
+    syntax :  for(initialization;condition;updation){
+        // statements
+    }
+    eg: print alternate letters of given string ( inp : PRASAD, output:P A A);
+    for(i=0;i<=x.length-1;i+=2)
+    { 
+        console.log(x.charAt(i)) 
+    }
+
+   let arr = [5,4,3,2,1];
+   // write a for loop to print array elements
+   for(let i=0;i<=arr.length-1;i++){
+    console.log(arr[i])
+   }
+   This is called standard-for
+   But in Javascript there are other variations of for such as 'for..of', for..in'
+   for..of: it is used to iterate array elements
+    syntax :  for(let i of arrayName){
+         //statements
+    }
+    i will be automatically array elements
+   eg: let arr = [5,4,3,2,1]
+     for(let i of arr){
+        console.log(i);
+     }
+    for..in: it is used to iterate array indexes/address
+    syntax :  for(let i in arrayName){
+         //statements
+    }
+    i will be automatically array indexes
+   eg: let arr = [5,4,3,2,1]
+     for(let i in arr){
+        console.log(i);
+     }
+
+do while :  do while is exit control loop which checks the condition at the exit of body . it the condition is true, it repeats the loop else it terminates
+   syntax :
+   initialization; 
+    do {
+        //statements
+        updation;
+   }while(condition);
+   eg: print only even numbers between  1 to 20 using do while
+   let i = 1;
+   do {
+      console.log(i);
+      i++;
+   }while(i<=20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

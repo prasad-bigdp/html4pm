@@ -1,0 +1,11 @@
+loops :
+1. write a js code to print sum of array elements
+   // let arr = [5,4,3,2,1], output : 15
+2. write a js code to check whether sum of digits is equals to product of digits for a given number
+// eg:  144 
+  1+ 4+ 4 = 9
+  1*4*4 = 16  ,, no
+  22  ==>  2*2 =4, 2+2 =4
+3.using loops find the sum of nested arrays and print them
+// eg:mark =  [[10,20,10,50],[0,10,30,40],[10,10,10,10]]
+4.

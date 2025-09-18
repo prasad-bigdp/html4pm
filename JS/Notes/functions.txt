@@ -1,0 +1,89 @@
+Functions :  function is a block of code which can be reusable . Instead of implementing whole code, we can divide the code into logical parts called Functions
+   Main Advantages :
+      i. Reuasability
+      ii. Modularity
+      iii. Easy to understand and debug
+
+Every function will have 
+        function declaration , function definition and function call
+syntax : function function_name(parameters)
+        {
+            //definition;
+        }
+        function_name(arguments);
+
+// simple function : write a function that prints "hello world" and call it
+function displayHello() {
+	console.log("hello world")
+}
+displayHello()
+
+functions can also accepts parameters which are passed while calling the function
+// write a function that takes two values and print their sum
+function addTwoValues (a, b)
+{
+    console.log(a + b);
+}
+addTwoValues(5, 3); // 8 
+addTwoValues(2)
+ // 2+undefined=NaN
+addTwoValues()
+// undefined + undefined = NaN
+
+functions can even return the values
+write a function that accepts a string and returns no.of characters
+
+function characters (s)
+{
+    if (typeof (s) == 'string')
+    {
+        return s.length
+    } 
+    else
+    {
+        return "input only strings"
+    }
+}
+let value = characters("prasad")
+console.log(value)
+let value2 = characters(1234);
+console.log(value2);
+
+functions are also treated as a variable in javascript so that whole function definition is stored as a variable. we can even create function expressions
+
+
+function sample(){
+    console.log("hi")
+}
+console.log(sample)
+
+function expressions can also be simplified as arrow functions . Arrow functions don't use keywords 'function' and 'return'(if only one statement is there)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

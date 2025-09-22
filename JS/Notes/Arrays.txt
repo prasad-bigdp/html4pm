@@ -1,0 +1,63 @@
+Arrays: Array is a collection of elements. Arrays are represented by square brackets and maintain address of every element as 'index'. indexes starts from 0
+   Arrays are like a hotel with multiple rooms contains each element in a room and each room have a number. room numbers starts from 0.
+   eg: let arr = [5,9,6,7,3];
+console.log(arr[20])
+arr[20]= 49;
+console.log(arr) // total 21 values will be there
+
+Array Methods: 
+     1. length :  length returns the total number of elements(last value index+1) in the Array
+     console.log(arr.length);
+     2.push(values) : it is used to add elements to the end of the Array
+     3.pop(): it is used to remove element at the end of the Array
+     4. unshift(values) : it is used to add elements to the starting of the Array
+     5. shift() : it is used to remove the first element of the array(starting elment of the array)
+     6. splice : it is used to add element at any index and delete elements at any index
+        splice(starting_index,deleteCount,InsertingValues);
+    let arr = [5,6,7,8];
+    arr.splice(1,2)   // 6  and 7 will be deleted 5 and 8 remains
+    arr=[5,6,7,8];
+    arr.splice(1,0,11,12,13); //[5,11,12,13,6,7,8];
+
+    let friends = ["sheldon","monica","rachel","ross","phoebe","shinchan"];
+      1. delete shinchan and add "joey"
+      2. delete "sheldon" and add "chandler"
+      3. add name "emma" between rachel and ross
+
+
+    7. forEach (callbackfunction(ele,ind))
+       forEach is used to pass a callbackfunction to each and every element of the array and for every time , it will accept element and index 
+       let arr = [5,4,9,8];
+       arr.forEach(function(e,i){
+        consolog(e)
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

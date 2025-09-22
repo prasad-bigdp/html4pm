@@ -59,6 +59,71 @@ console.log(sample)
 
 function expressions can also be simplified as arrow functions . Arrow functions don't use keywords 'function' and 'return'(if only one statement is there)
 
+let fun = function () { console.log("bye") } // function expression
+console.log(fun);
+console.log(fun());
+
+let fun2 = () => console.log("bye")
+
+callback functions:
+       callback functions are the functions which are passed as a parameter to another function
+       function mad(){
+        console.log("i'm mad");
+       }
+       function mainFun(x){
+             x();
+       }
+       mainFun(mad);
+
+
+
+function greet (name, fun)
+{
+    fun(name); 
+}
+function sayName (n)
+{
+    console.log(`My name is ${n}`)
+}
+greet("prasad", sayName);
+
+sayName is a function which is passed in the parameter of greet , so sayName is a callback function and greet (function which receives callback) is Higher order function
+
+Closures :Closure is a memory technique in which inner loops remember the outer loop values even after outer execution ended.
+
+function outer ()
+{
+    let a = 5;
+    function inner ()
+    {
+        ++a;
+        console.log(a);
+    }
+    return inner;
+}
+let x = outer();
+x()
+x()
+x()
+
+
+IIFE(Immediate Invoke Function Expressions) : An IIFE is a function that is defined and invoked/called Immediately. It is used to hide the data from global scope
+   eg : (function(){
+          console.log("hi");
+        })();
+
+let a = (
+
+    function ()
+{
+    let password = "1234567"
+	console.log("hi")
+})()
+console.log(password) // error
+
+
+
+
 
 
 

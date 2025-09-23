@@ -1,7 +1,7 @@
 Arrays: Array is a collection of elements. Arrays are represented by square brackets and maintain address of every element as 'index'. indexes starts from 0
    Arrays are like a hotel with multiple rooms contains each element in a room and each room have a number. room numbers starts from 0.
    eg: let arr = [5,9,6,7,3];
-console.log(arr[20])
+console.log(arr[20]) //undefined
 arr[20]= 49;
 console.log(arr) // total 21 values will be there
 
@@ -31,6 +31,59 @@ Array Methods:
        arr.forEach(function(e,i){
         consolog(e)
         })
+   // use forEach and print each elements cube in given array
+   let arr = [5,4,9,8];
+   arr.forEach(function(ele,ind){
+      console.log(ele**3)
+   })
+  8. map(callbackfunction(ele,ind)):
+      map is used to pass a callbackfunction to each and every element of the array and return a value for each and every element of the array.
+      eg: let arr= [5,4,6,3]
+     let x= arr.map((e,i)=>{
+         return e*e;
+      })
+    console.log(x); //[25,16,36,9]
+
+    9. filter is also similar to map but it returns only the elements whose condition is true
+     let arr=[5,4,6,3];
+let x= arr.filter((e,i)=> e>=5)
+    console.log(x); //[5,6]
+    
+    10. indexOf('ele') : it is used to return the first occurance of element's index
+
+    11. find(callbackfunction(ele,ind)) : works similarly as filter but returns only first element that satisfies the condition
+    we can use alternatives findIndex, findLast, findLastIndex
+
+    12. reverse(): it is used to reverse the given array
+    13. reduce(callbackfunction(prev,curr),initial_Value) : it is used to find cumulative values in given array
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

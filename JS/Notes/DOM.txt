@@ -1,0 +1,70 @@
+Object : object is a collection of key value pairs where each key is indexed to specific value. objects are represented by curly braces {}
+let obj = {
+    name:"raj",
+    age: 25;
+}
+console.log(obj, obj.age,obj.name) // dot method
+console.log(obj["name"],obj["age"]) //index signature
+
+we can also create an object using Object.create method . it creates object with prototype ineritance
+
+Object.freeze : it is used to freeze the object. it will not allow to add a property, remove a property or modify a property
+     Object.freeze(objectName)
+
+Object.seal : it is used to seal the object. it will not allow to add or remove the property but it allows to modify the properties
+     Object.seal(objectName)
+
+DOM(Document Object Model)
+'document' is an object that contains complete structure of web page in tree like format. It allows to manipulate or interact with documents elements,attributes or context.
+DOM Tree:
+DOM selection : we can select any element from 'document' object using following methods
+    i. getElementsByTagName('tagname'): it is used to select elements with a specific tag name and it returns an array of elements
+    //select h1 using tag name
+let x = document.getElementsByTagName('h1');
+console.log(x[0]);
+// change text inside
+x[0].textContent = "Hello Everyone"
+ 
+
+    ii. getElementsByClassName('className'): it is used to select  elements of specific class name and it returns an array of elements
+    //select p with class name para using class name
+let y = document.getElementsByClassName('empty');
+console.log(y[0]);
+// change text inside
+y[0].textContent = "hfkjvhdfkjhkjfdhvjdfh"
+
+    iii. getElementById('id'): it is used to select single element with specific id and it returns particular Id's element
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

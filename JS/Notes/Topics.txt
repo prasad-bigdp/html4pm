@@ -14,5 +14,17 @@ Basic Javascript
 
 DOM
 ==================
+     DOM Introduction, Selection
+     DOM Manipulation,
+     DOM creation, Deletion
+        Events
+        Form validation
+        rest vs spread, this keyword
+        ES6 features (OOP)
 Advanced Javascript
 ===================
+    callback hell,Promises,fetch, API, async await
+    libraries(jquery,axios)
+
+
+

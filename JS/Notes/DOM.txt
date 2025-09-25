@@ -35,7 +35,41 @@ y[0].textContent = "hfkjvhdfkjhkjfdhvjdfh"
 
     iii. getElementById('id'): it is used to select single element with specific id and it returns particular Id's element
 
-     
+     iv. querySelector('css selector'): it is used to select first element that matches the specified css selector
+      //select p with class name para using class name
+let y = document.querySelector('.empty');
+console.log(y);
+// change text inside
+y.textContent = "hfkjvhdfkjhkjfdhvjdfh"
+        
+     v. querySelectorAll('css selector'): it is used to select all elements that matches the specified css selector
+
+  Events:  Events are actions that occur when a user interacts with the web page such as clicking a button, submitting a form, scrolling a page, hovering over an element etc..,
+  Those events can be handled using event handlers such as onClick
+
+ DOM Manipulation : we can manipulate an element using below properties
+    i. textContent : it is used to read or change the text inside an element
+    ii. innerText : it is used to read or change the inside an element but it also loads CSS so incase of visibility hidden in css, it can't overpass it.
+    iii. innerHTML : it is used to read or change HTML inside an element 
+    iv. style: it is used to change or read styles of an element
+    v. value : it is used to access /read or change the value of input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

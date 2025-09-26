@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            transition: all 1s ease;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="inp" placeholder="Enter image URL">
+    <button onclick="change()">change Image</button>
+    <button onclick="rotate()">rotate</button>
+    <button onclick="showHide()">show/hide</button>
+    <img src="" alt="" id="image" style="height: 200px;width: 200px;border: 2px solid black;">
+    <script src="./script.js"></script>
+</body>
+</html>

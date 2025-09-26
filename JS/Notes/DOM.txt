@@ -53,6 +53,16 @@ y.textContent = "hfkjvhdfkjhkjfdhvjdfh"
     iii. innerHTML : it is used to read or change HTML inside an element 
     iv. style: it is used to change or read styles of an element
     v. value : it is used to access /read or change the value of input
+    vi. classList : it is used to add / remove / toggle the class names to elements
+
+DOM Creation : we can even create elements using document object with methods such as
+
+     createElement('elementName') : it will create element
+     appendChild(childElement) : it will add element to HTML
+     append(childElements) : it will add multiple elements to HTML
+
+
+     
 
 
 

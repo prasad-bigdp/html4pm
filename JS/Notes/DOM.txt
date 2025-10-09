@@ -61,6 +61,45 @@ DOM Creation : we can even create elements using document object with methods su
      appendChild(childElement) : it will add element to HTML
      append(childElements) : it will add multiple elements to HTML
 
+Events : Events are used to trigger based on users actions, 
+ they trigger functions to perform certain task
+ Based on user's action Events are divided as several types such as
+ i. mouse events: Mouse Events are used when user did an action using mouse.
+  eg: click, mouse over, mouse out etc..,
+
+ii . keyboard events : keyboard Events are used when user did an action using keyboard
+eg : keyUp,keyDown,keyPress etc.,
+   Every time an event got triggered it passes an object to callback function called eventObject. it contains complete event details
+write a js code to make a paragraph becomes red color when letter 'r' is pressed
+document.addEventListener('keydown', function (e)
+{
+    if (e.key == 'r')
+        document.getElementById("para").style.color = "red"
+})
+
+iii. Form Events : These events are used to get the details of inputs or form related from user
+   There are different types of form events like 
+    submit -- it is used to submit the entire form
+    reset -- it is used whenever form details got reset
+    change -- it is used when form input values got changed
+    input -- it is used when form values got entered
+    select -- it is used when an input value is selected
+    focus -- it is used when an input value got focused
+    etc..,
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
      
 

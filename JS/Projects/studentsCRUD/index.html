@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btn">ADD Student</button>
+    <form id="fr" class="hide">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="email" id="email" placeholder="Enter Email">
+        <input type="password" id="password" placeholder="Enter password">
+        <button id="showPwd" type="button"> <i class="bi bi-eye"></i></button>
+        <input type="password" id="cnfrmPwd" placeholder="Enter password again">
+      <button id="showPwd" type="button"> <i class="bi bi-eye"></i></button>
+        <div id="errors"></div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

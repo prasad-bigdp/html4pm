@@ -1,0 +1,37 @@
+AJAX(Asynchronous Javascript): Javascript is normally synchronous and single threaded lanaguage. synchronous executes code one after the other and single threaded means execute only one code at a time
+  console.log("hi")
+  console.log("bye")
+
+  Asynchronous Javascript allows to execute code , not immediately. Asynchronous Javascript allows to execute only specific code with interrupting other codes(UI).
+  eg: adding item to cart or score update in crickbuzz etc..,
+
+  We can use browser default timers to understand AJAX. Browser provides two default methods called
+     i. setTimeOut
+     ii. setInterval
+
+
+i. setTimeOut : it is used to perform a task after a specific time
+   setTimeOut(callback function , time in ms)
+   eg: setTimeOut(()=>console.log("hello world"),1000)
+    it prints hello world after 1s
+    In case if any other code is next to it , it will get executed immediately.
+
+ii . setInterval : it is used to perform a task every time of specific interval
+     setInterval (callback function, time in ms)
+     eg:setInterval(()=>console.log("hello world"),1000)
+     it prints hello world for every 1s
+
+we can stop these methods using clearTimeout and clearInterval
+   clearTimeout(variable of setTimeOut)
+   clearInterval(variable of setInterval)
+
+   
+
+
+
+
+
+
+
+
+

@@ -25,7 +25,79 @@ we can stop these methods using clearTimeout and clearInterval
    clearTimeout(variable of setTimeOut)
    clearInterval(variable of setInterval)
 
+To understand AJAX , we need to understand callbacks and Event Loop
+Promises: callbacks creates a probelm called "callback hell" or "pyramid of doom" which is nothing but nested callbacks multiple times(one within another). callback hell code is difficult to understand or maintain. To avoid this probelm, we can use "promises"
+Promise : Promise is an object which describes an eventual completion of Asynchronous operation/task . it contains three states i.e., pending, fulfilled and rejected. The default state is 'pending'
+Eg : 
+ "i will give you money tomorrow" is a promise
+ it is an Asynchronous operation because it is not completing immediately
+ this promise contains three states
+     'fulfilled' -- really gives the money
+     'rejected'  -- no money
+      ' pending' -- keeps you waiting
+
+  A promise can be handled using then and catch
+  promise
+  .then(callback)
+  .catch(callback)
+
+
+let x = 20000;
+let p = new Promise(function (resolve, reject)
+{
+    if (x < 30000)
+    {
+        setTimeout(()=>resolve(x),2000)
+    }
+    else
+    {
+        reject("no money")
+    }
+})
+console.log(p)
+p
+    .then((res) => res*2)
+    .then((res2)=>res2*2)
+    .then((res3)=>console.log(res3))
+    .catch((err)=>console.log(err))
+
+This series of promises connected to each other is called "promise chaining"
+  
+API (Application Programming Interface):
+           API's are used to communicate between two softwares (client and server). client requests to the server using api and server responds to the client using api. API's are created and maintained by Server. 
+
+           client recieves a promise whenever it requests to the api, once the promise resolved, it recieves the data through API.
+
+To implement AJAX in our code, we have two ways
+   i. using XMLHttpRequest (old way)
+   ii. using fetch (new way)
+   fetch (url,optional configurations)
+   .then((response) => response.json())
+   .then((data) => console.log(data))
+   .catch((error) => console.log(error))
+   fetch is a broweser inbuilt method to make API calls. fetch returns a promise which can be handled using then and catch.
+
+
+
+
+
+
+
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,69 @@
+BOM (Browser Object Model): Browser provide an object to control the complete browser(not web page), "window"
+The methods like alert, prompt,confirm,setTimeout,setInterval,fetch and objects like console,document are all part of window object
+It have default methods like 
+
+   i. basic usage: we can open or close the window using
+   window.open(url)
+   window.close() or variable.close()
+
+   ii. history: we cannot access the actual history pages but we can access methods like
+      back()  --- used to go back 
+      forward() --- used to go forward
+
+    iii. location : we can access current web page details using window.location
+          href   -- complete web page url
+          Search -- only search urls
+          reload() -- reload the current web page
+          replace -- replaces the current web page url
+
+     iv. geolocation -- we can access geo location using window.navigator.geolocation
+      window.navigator.geolocation.getCurrentPosition((res) =>
+    {
+        console.log(res.coords.latitude,res.coords.longitude)
+    },(err)=>{
+       console.log(err)
+    })
+
+    v. get video & audio : we can even access camera and mic using window.navigator.mediadevices
+
+
+     const res = await window.navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+    document.getElementById('vd').srcObject = res;
+    new MediaRecorder(res);
+    // text to speech
+    let msg = new SpeechSynthesisUtterance("hellooooooooooooooooooooooooooo")
+    speechSynthesis.speak(msg)
+
+    vi. local storage vs session storage: 
+    Browsers can even store the data using local storage or session storage.
+    local storage is permanant and stays even after browser closes.
+    session storage is temporary and will get expired once the browser closes
+    local storage can be shared to all tabs but session storage stays for only one tab
+    local or session storage uses similar methods such as
+    localStorage.setItem(itemName,value)  -- always it stores values as strings
+    localStorage.getItem(itemName)
+    localStorage.clear()
+    localStorage.removeItem(itemName)
+
+Libraries:  Library is a prewritten code for specific purpose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

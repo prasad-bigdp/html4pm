@@ -1,0 +1,13 @@
+HTML Project
+FLEXBOX Project(frontend mentor),
+GRID Project(frontend mentor),
+Portfolio Project,
+Bootstrap Project,
+counter Project,
+shop,
+pokedex,
+moviesearch,imagechange,
+movieLibrary, wish-timer,
+  Quiz api,weather api, gemini ai api,calculator,
+
+Ecommerce or OTT

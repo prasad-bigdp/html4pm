@@ -19,12 +19,10 @@ DOM
      DOM creation, Deletion
         Events
         Form validation
-        rest vs spread, this keyword
-        ES6 features (OOP)
 Advanced Javascript
 ===================
     callback hell,Promises,fetch, API, async await
-    libraries(jquery,axios)
+    libraries(jquery,axios), BOM, ES6 features
 
 
 

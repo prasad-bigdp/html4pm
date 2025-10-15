@@ -1,0 +1,59 @@
+ES6 : ES stands for ECMAScript. ECMAScript is the standard that js follows. if JS is like a chef, then ECMAScript is a like a recipe book. Every a new features needs to be added to JS, a new version of ES will be released. ES6 released in 2015 also called ES2015. The latest version  is ES2024 or ES15
+ES6 actually brought lot of revolutionary features such as
+   i. let & const
+   ii. template literals
+   iii. Arrow Functions
+   iv. default parameters
+   v. Promises/Async Await
+   vi. OOP(Object Oriented Programming)
+   vii . destructuring Array/objects
+   viii. Rest of the parameters and spread operator
+   ix. ES6 Module System
+
+
+vi. OOP(Object Oriented Programming):
+it is a way of writing code
+Probelm :  Jack wants six pack
+solution1 : wake up early --> hit the gym --> do some exercises --> maintain diet ---> repeat for some year
+solution 2 : first build muscles --> build some biceps --> some chest --> do some abs
+solution 3: check what needs for six pack --> verify constantly what ypu have --> do what is needed
+
+The third approach explains Object Oriented Programming. it constantly focus on objects
+Object is a physical entity which have properties and methods
+class is a standard/blueprint of a object . it contains multiple objects so can be called as collection of objects
+class Fruit
+{
+   color;shape;name;taste;
+}
+apple is an object which is from class Fruit
+//To create object we use a keyword new -- to generate dynamic memory
+let apple = new Fruit();
+let banana = new Fruit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

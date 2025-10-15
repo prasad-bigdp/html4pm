@@ -46,6 +46,19 @@ It have default methods like
     localStorage.removeItem(itemName)
 
 Libraries:  Library is a prewritten code for specific purpose
+Most Famous JAVASCRIPT libraries are
+    1. JQuery
+    2. Axios
+    3. React
+    4. slick /swiper js /owl carousel/tns slider
+    5. AOS(animate on scroll)
+    6. GSAP
+    7. Three JS / animate js
+    8. chartjs / am4charts
+
+How to use a library ? 
+1. take library cdn link and attach to HTML,
+2. Read doc and apply necessary changes
 
 
 

@@ -16,7 +16,7 @@ DOM
 ==================
      DOM Introduction, Selection
      DOM Manipulation,
-     DOM creation, Deletion
+     DOM creation
         Events
         Form validation
 Advanced Javascript

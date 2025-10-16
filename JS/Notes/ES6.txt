@@ -31,6 +31,63 @@ let apple = new Fruit();
 let banana = new Fruit()
 
 
+//Inheritance : when a class is derived from another class it is called inheritance
+
+class Car
+{
+    cmodel;mileage;price;
+    constructor(a,b,c){
+      this.cmodel =a;
+      this.mileage =b;
+      this.price =c;
+    }
+}
+let obj1 = new Car("tata punch","20kmph",6);
+console.log(obj1.mileage) 
+
+class ElectricCar extends Car{
+     batteryCapacity;
+     constructor(a,b,c,d){
+      super(a,b,c);
+      this.batteryCapacity = d;
+     }
+}
+let obj2 = new ElectricCar("tesla",20kmph,70,"10hr")
+
+
+destructuring of objects or arrays:
+     let arr = [5,4,6,9];
+     let [a,b,c,d] = arr;  // destructuring of array
+
+     let obj = { name :"shekhar",age:55}
+     let {name,age} = obj;  // destructuring of object
+
+Rest of the parameters:
+        it is represented by three dots and it is used to collect all the rest of parameters and store them as an array. it is always written at last of parameters
+        let [a,...b]= ["raj","shekhar","john"]
+    console.log(a)  //raj
+    console.log(b)  //["shekhar","john"]
+
+Spread operator:
+        it is used to spread out the array. it is also represented by three dots
+let a =[1,2],b=[3,4];
+let c = [...a,...b];
+console.log(c) [1,2,3,4];
+
+Modules :
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
